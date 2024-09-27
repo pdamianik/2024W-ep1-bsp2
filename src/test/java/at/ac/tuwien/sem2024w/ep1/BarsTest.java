@@ -1,4 +1,4 @@
-package at.ac.tuwien.sem2024w.prop.ep1;
+package at.ac.tuwien.sem2024w.ep1;
 
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
@@ -6,7 +6,7 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
-import static at.ac.tuwien.sem2024w.prop.ep1.Main.*;
+import static at.ac.tuwien.sem2024w.ep1.Main.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 import java.io.ByteArrayOutputStream;

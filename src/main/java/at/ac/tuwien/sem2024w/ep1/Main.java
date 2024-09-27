@@ -1,4 +1,4 @@
-package at.ac.tuwien.sem2024w.prop.ep1;
+package at.ac.tuwien.sem2024w.ep1;
 
 public class Main {
     public static void main(String[] args) {

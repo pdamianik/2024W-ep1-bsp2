@@ -3,7 +3,7 @@ plugins {
     id("application")
 }
 
-group = "at.ac.tuwien.sem2024w.prop.ep1"
+group = "at.ac.tuwien.sem2024w.ep1"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -20,5 +20,5 @@ tasks.test {
 }
 
 application {
-    mainClass = "at.ac.tuwien.sem2024w.prop.ep1.Main"
+    mainClass = "at.ac.tuwien.sem2024w.ep1.Main"
 }
