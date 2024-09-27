@@ -107,12 +107,7 @@ public class Main {
             if (s.charAt(i) == 'a') { // search for a
                 counter += 1;
 
-                if (i + lg > s.length()) {
-                    // can't get the substring beyond the string length
-                    s = s.substring(0, i) + counter;
-                } else {
-                    s = s.substring(0, i) + counter + s.substring(i + 1);
-                }
+                s = s.substring(0, i) + counter + s.substring(i + 1);
 
                 // increment the counter length
                 if (counter >= nextHighestPower10) {
